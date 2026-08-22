@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery | Dinani High School</title>
+<meta name="description" content="Photo gallery of Dinani High School, Buhleni, Eswatini — school life, students, sports, events and awards.">
+<link rel="icon" type="image/png" sizes="192x192" href="images/dinani-emblem-192.png">
+<link rel="apple-touch-icon" href="images/dinani-emblem-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;0,650;1,400&family=Work+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="container navbar">
+    <a href="index.html" class="nav-brand"><img src="images/dinani-emblem.png" alt="Dinani High School emblem" width="48" height="48"><span class="nav-brand-text"><span class="nav-brand-name">Dinani High School</span><span class="nav-brand-sub">Buhleni &middot; Eswatini</span></span></a>
+    <div class="nav-backdrop"></div>
+    <nav aria-label="Primary">
+      <ul class="nav-menu" id="primary-navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="activities.html">Sports &amp; Activities</a></li>
+        <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <a href="admissions.html" class="btn btn-primary btn-sm">Apply Now</a>
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="primary-navigation"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <span class="page-hero-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z"/></svg>Gallery</span>
+      <h1>School Gallery</h1>
+      <p class="page-hero-lead">A look at life at Dinani High School — celebrating our students, school community, activities, events and achievements.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="gallery-filters">
+        <button class="filter-pill is-active" data-filter="all">All</button>
+        <button class="filter-pill" data-filter="school">School</button>
+        <button class="filter-pill" data-filter="students">Students</button>
+        <button class="filter-pill" data-filter="sports">Sports</button>
+        <button class="filter-pill" data-filter="events">Events</button>
+        <button class="filter-pill" data-filter="awards">Awards</button>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item" data-category="students">
+          <img src="images/campus-students.jpg" alt="Dinani High School students celebrating together on the school grounds">
+          <div class="gallery-caption">Students on the school grounds</div>
+        </div>
+        <div class="gallery-item" data-category="school">
+          <img src="images/campus-students.jpg" alt="Dinani High School campus buildings">
+          <div class="gallery-caption">Dinani High School campus</div>
+        </div>
+
+        <div class="gallery-item" data-category="school">
+  <img src="images/School building.jpg" alt="Dinani High School building">
+  <div class="gallery-caption">School Building</div>
+</div>
+        <div class="gallery-item" data-category="students">
+  <img src="images/classroom.jpg" alt="Students learning in a classroom at Dinani High School">
+  <div class="gallery-caption">Classroom Life</div>
+</div>
+        <div class="gallery-item" data-category="sports">
+  <img src="images/sports.jpg" alt="Students participating in sports at Dinani High School">
+  <div class="gallery-caption">Sports Day</div>
+</div>
+        <div class="gallery-item" data-category="sports">
+  <img src="images/Football.jpg" alt="Dinani High School football match">
+  <div class="gallery-caption">Football Match</div>
+</div>
+        <div class="gallery-item" data-category="events">
+  <img src="images/culture.jpg" alt="Cultural Day at Dinani High School">
+  <div class="gallery-caption">Cultural Day</div>
+</div>
+        <div class="gallery-item" data-category="events">
+  <img src="images/activities.jpg" alt="Prize-giving ceremony at Dinani High School">
+  <div class="gallery-caption">Prize-Giving Ceremony</div>
+</div>
+        <div class="gallery-item" data-category="awards">
+  <img src="images/Top achievers.jpg" alt="Top achievers at Dinani High School">
+  <div class="gallery-caption">Top Achievers</div>
+</div>
+        <div class="gallery-item" data-category="awards">
+  <img src="images/academic awards.jpg" alt="Academic awards at Dinani High School">
+  <div class="gallery-caption">Academic Awards</div>
+</div>
+        <div class="gallery-item" data-category="school">
+  <img src="images/School library.jpg" alt="Dinani High School library">
+  <div class="gallery-caption">School Library</div>
+</div>
+      </div>
+
+      
+    </div>
+  </section>
+</main>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" aria-label="Close image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  <div class="lightbox-content">
+    <img src="" alt="">
+    <p class="lightbox-caption"></p>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="footer-brand"><img src="images/dinani-emblem.png" alt="" width="54" height="54"><div><div class="footer-brand-name">Dinani High School</div><div class="footer-brand-sub">Est. 2013 &middot; Mentoring Young Minds</div></div></div>
+        <p>A secondary school in the Hhohho region in Eswatini, dedicated to building knowledge, character and excellence in every learner.</p>
+        <div class="footer-social">
+  <a href="https://www.facebook.com/profile.php?id=61583768273285"
+     target="_blank"
+     rel="noopener"
+     aria-label="Dinani High School on Facebook">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M13.5 21v-7.5H16l.4-3H13.5V8.4c0-.9.2-1.5 1.5-1.5h1.6V4.3C16.3 4.2 15.2 4 14 4c-2.5 0-4.2 1.5-4.2 4.3v2.2H7v3h2.8V21h3.7Z"/>
+    </svg>
+  </a>
+</div>
+      </div>
+      <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="academics.html">Academics</a></li><li><a href="admissions.html">Admissions</a></li><li><a href="news.html">News</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.6 7-12a7 7 0 0 0-14 0c0 5.4 7 12 7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg><span>P.O. Box 171, Buhleni, Eswatini</span></div>
+        <div class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h3.5l1.5 4.5-2 1.5a13 13 0 0 0 6 6l1.5-2 4.5 1.5V19a2 2 0 0 1-2 2C10.6 21 3 13.4 3 6a2 2 0 0 1 2-2Z"/></svg><a href="tel:+26876088788">+268 7608 8788</a></div>
+        <div class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="11" r="2"/><path d="M5.5 16c.5-1.7 1.8-2.5 3-2.5s2.5.8 3 2.5M14 9h5M14 13h5"/></svg><span>School Code: 0287</span></div>
+      </div>
+      <div class="footer-col">
+  <h4>Office Hours</h4>
+  <div class="footer-contact-item">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="9"/>
+      <path d="M12 7v5l3 3"/>
+    </svg>
+    <span>Mon &ndash; Fri: 7:00 AM &ndash; 3:30 PM</span>
+  </div>
+</div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="current-year">2026</span> Dinani High School. All Rights Reserved.</p>
+      
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+<script src="js/gallery.js"></script>
+</body>
+</html>
